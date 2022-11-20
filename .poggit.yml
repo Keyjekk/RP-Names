@@ -5,5 +5,5 @@ branches:
 projects: 
   RP-Names:
     path: ""
-    icon: ""
+    icon: "logo.png"
 ...
