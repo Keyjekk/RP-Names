@@ -2,5 +2,8 @@
 build-by-default: true
 branches:
 - main
-projects: []
+projects: 
+  RP-Names:
+    path: ""
+    icon: ""
 ...
