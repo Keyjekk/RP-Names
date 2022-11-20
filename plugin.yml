@@ -1,4 +1,6 @@
-name: RP Names
+name: RPNames
 main: _keyjekk\RPN\Main
 api: 4.10.0
 version: 0.1
+author: Keyjekk
+
