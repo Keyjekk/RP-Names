@@ -3,4 +3,11 @@ main: _keyjekk\RPN\Main
 api: 4.10.0
 version: 0.1
 author: Keyjekk
-
+permissions:
+  rpn.cmd:
+    description: "Allow to use RPNAMES"
+    default: true
+commands:
+  rpn:
+    description: "§dRP§fNAMES"
+    permission: rpn.cmd
