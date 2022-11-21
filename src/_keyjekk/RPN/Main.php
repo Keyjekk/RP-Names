@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace _keyjekk\RPN;
 
-use pocketmine\plugin\PluginBase;
-use pocketmine\event\Listener;
+use pocketmine\{
+  plugin\PluginBase,
+  event\Listener,
+  utils\Config
+};
 
 class Main extends PluginBase implements Listener{
 
@@ -15,6 +18,10 @@ class Main extends PluginBase implements Listener{
 
   $this->getLogger()->info("§dRPN was started!");
 
+  }
+  
+  public function onCommand(CommandSender $sender, Command $cmd, ):bool{
+    
   }
 
 }
